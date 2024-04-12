@@ -1,0 +1,7 @@
+{
+  "name": "Practica-ShoppingCart",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
