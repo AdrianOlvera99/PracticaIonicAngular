@@ -1,0 +1,17 @@
+<!-- card-product.component.html -->
+<div class="products">
+  <ion-card *ngFor="let product of products">
+    <ion-card-header>
+      <ion-card-title>{{ product.name }}</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>Categoría: {{ product.category }}</p>
+      <p>Marca: {{ product.brand }}</p>
+      <p>Especificaciones: {{ product.specs }}</p>
+      <p>Precio: {{ product.price | currency:'MXN':'symbol':'1.2-2' }}</p>
+    </ion-card-content>
+    <ion-button (click)="addToCart(product.id)" expand="block">Agregar al carrito</ion-button>
+
+  </ion-card>
+</div>

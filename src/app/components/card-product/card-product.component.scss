@@ -1,0 +1,19 @@
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+ion-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+ion-card-content {
+    flex-grow: 1;
+}
+
+ion-button {
+    margin: 1rem;
+}

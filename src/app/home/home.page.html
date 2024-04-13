@@ -1,8 +1,17 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Shopping Cart - Adrian
     </ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" name="cart"></ion-icon>
+        <ion-badge color="primary" style="position: absolute; top: -8px; right: -8px;">{{ cartItemCount }}</ion-badge>
+      </ion-button>
+      <ion-button (click)="logout()">
+        <ion-icon slot="icon-only" name="log-out"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
@@ -13,8 +22,23 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-content>
+    <div class="custom_container" id="user-details">
+      <h4>Name: {{ userData.name }}</h4>
+      <h4>Last Name: {{ userData.lastName }}</h4>
+      <h4>Address: {{ userData.address }}</h4>
+      <h4>Phone Number: {{ userData.phoneNumber }}</h4>
+      <h4>Shopping Cart:</h4>
+      <ul>
+        <li *ngFor="let item of userData.shoppingCart">
+          Product ID: {{ item.productId }}, Quantity: {{ item.quantity }}
+        </li>
+      </ul>
+    </div>
+    <div class="custom_container">
+      <app-card-product></app-card-product>
+    </div>
+  </ion-content>
+
+
 </ion-content>

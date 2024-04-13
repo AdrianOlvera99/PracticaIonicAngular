@@ -1,0 +1,305 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Adrian",
+            "lastName": "Olvera",
+            "address": "Arandano #269, Ixtapaluca, Estado de México",
+            "phoneNumber": "5512345678",
+            "credentials": {
+                "username": "adrianolvera03",
+                "password": "adrianolvera03"
+            },
+            "shoppingCart": [
+                {
+                    "productId": 1,
+                    "quantity": 1
+                },
+                {
+                    "productId": 2,
+                    "quantity": 3
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Eduardo",
+            "lastName": "Pancreu",
+            "address": "Aracauria #739, Ciudad de México",
+            "phoneNumber": "55987654321",
+            "credentials": {
+                "username": "eduardo",
+                "password": "eduardo"
+            },
+            "shoppingCart": [
+                {
+                    "productId": 1,
+                    "quantity": 1
+                },
+                {
+                    "productId": 2,
+                    "quantity": 3
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Jhon",
+            "lastName": "Doe",
+            "address": "Vergel #321, Ciudad de México",
+            "phoneNumber": "5543215678",
+            "credentials": {
+                "username": "Jhon",
+                "password": "Jhon"
+            },
+            "shoppingCart": [
+                {
+                    "productId": 1,
+                    "quantity": 1
+                },
+                {
+                    "productId": 2,
+                    "quantity": 3
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "eeee",
+            "lastName": "eee",
+            "address": "eee",
+            "phoneNumber": "123213",
+            "credentials": {
+                "username": "aaaaa",
+                "password": "aaaaa"
+            },
+            "shoppingCart": []
+        },
+        {
+            "id": 5,
+            "name": "bbbbbbbbb",
+            "lastName": "bbbbbbbbb",
+            "address": "bbbbbbbbbb",
+            "phoneNumber": "4444444444",
+            "credentials": {
+                "username": "bbbbbbbb",
+                "password": "bbbbbbbb"
+            },
+            "shoppingCart": []
+        },
+        {
+            "id": 6,
+            "name": "Test1",
+            "lastName": "Test1",
+            "address": "Test1",
+            "phoneNumber": "3123123123",
+            "credentials": {
+                "username": "Test1",
+                "password": "Test1"
+            },
+            "shoppingCart": []
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "category": "Computadoras",
+            "brand": "Apple",
+            "name": "MacBook Pro",
+            "specs": "Procesador Intel Core i7, 16GB RAM, SSD 512GB",
+            "price": 45000
+        },
+        {
+            "id": 2,
+            "category": "Computadoras",
+            "brand": "Apple",
+            "name": "iMac",
+            "specs": "Procesador Intel Core i5, 8GB RAM, Disco Duro 1TB",
+            "price": 35000
+        },
+        {
+            "id": 3,
+            "category": "Computadoras",
+            "brand": "Apple",
+            "name": "Mac Mini",
+            "specs": "Procesador Apple M1, 8GB RAM, SSD 256GB",
+            "price": 17000
+        },
+        {
+            "id": 4,
+            "category": "Computadoras",
+            "brand": "Apple",
+            "name": "MacBook Air",
+            "specs": "Procesador Apple M1, 8GB RAM, SSD 512GB",
+            "price": 28000
+        },
+        {
+            "id": 5,
+            "category": "Computadoras",
+            "brand": "Apple",
+            "name": "iPad Pro",
+            "specs": "Chip Apple M1, 12.9 pulgadas, 128GB",
+            "price": 25000
+        },
+        {
+            "id": 6,
+            "category": "Periféricos",
+            "brand": "Logitech",
+            "name": "Ratón inalambrico",
+            "specs": "Conexión Bluetooth, Sensor óptico, 6 botones",
+            "price": 650
+        },
+        {
+            "id": 7,
+            "category": "Periféricos",
+            "brand": "Microsoft",
+            "name": "Teclado ergonómico",
+            "specs": "Teclado con diseño ergonómico, Teclas silenciosas",
+            "price": 850
+        },
+        {
+            "id": 8,
+            "category": "Periféricos",
+            "brand": "Samsung",
+            "name": "Monitor curvo",
+            "specs": "32 pulgadas, Resolución 4K, Tecnología QLED",
+            "price": 10000
+        },
+        {
+            "id": 9,
+            "category": "Periféricos",
+            "brand": "HP",
+            "name": "Impresora multifunción",
+            "specs": "Impresión, Escaneo, Copia, Conexión Wi-Fi",
+            "price": 3000
+        },
+        {
+            "id": 10,
+            "category": "Periféricos",
+            "brand": "Bose",
+            "name": "Altavoces Bluetooth",
+            "specs": "Sonido envolvente, Conexión Bluetooth, 20 horas de batería",
+            "price": 4000
+        },
+        {
+            "id": 11,
+            "category": "Monitores",
+            "brand": "Dell",
+            "name": "UltraSharp U2722D",
+            "specs": "27 pulgadas, Resolución 4K, Tecnología IPS",
+            "price": 12000
+        },
+        {
+            "id": 12,
+            "category": "Monitores",
+            "brand": "LG",
+            "name": "32UN650-W",
+            "specs": "32 pulgadas, Resolución 4K UHD, HDR10",
+            "price": 10000
+        },
+        {
+            "id": 13,
+            "category": "Monitores",
+            "brand": "Samsung",
+            "name": "S34A650xW",
+            "specs": "34 pulgadas, Resolución WQHD, Curvatura 1000R",
+            "price": 18000
+        },
+        {
+            "id": 14,
+            "category": "Monitores",
+            "brand": "ASUS",
+            "name": "VG278QR",
+            "specs": "27 pulgadas, Resolución Full HD, 165Hz, 0.5ms",
+            "price": 6000
+        },
+        {
+            "id": 15,
+            "category": "Monitores",
+            "brand": "AOC",
+            "name": "CQ32G3S",
+            "specs": "31.5 pulgadas, Resolución QHD, 165Hz, Curvatura 1500R",
+            "price": 8000
+        },
+        {
+            "id": 16,
+            "category": "Sillas",
+            "brand": "Herman Miller",
+            "name": "Aeron",
+            "specs": "Silla ergonómica con ajustes de apoyo lumbar y reposabrazos",
+            "price": 18000
+        },
+        {
+            "id": 17,
+            "category": "Sillas",
+            "brand": "Steelcase",
+            "name": "Leap",
+            "specs": "Silla ergonómica con respaldo ajustable y soporte lumbar",
+            "price": 13000
+        },
+        {
+            "id": 18,
+            "category": "Sillas",
+            "brand": "Secretlab",
+            "name": "Omega",
+            "specs": "Silla gaming ergonómica con soporte lumbar ajustable",
+            "price": 8000
+        },
+        {
+            "id": 19,
+            "category": "Sillas",
+            "brand": "Haworth",
+            "name": "Zody",
+            "specs": "Silla ergonómica con ajuste de altura y soporte lumbar",
+            "price": 10000
+        },
+        {
+            "id": 20,
+            "category": "Sillas",
+            "brand": "Humanscale",
+            "name": "Freedom",
+            "specs": "Silla ergonómica con respaldo de malla y ajuste de inclinación",
+            "price": 15000
+        },
+        {
+            "id": 21,
+            "category": "Escritorios",
+            "brand": "IKEA",
+            "name": "Bekant",
+            "specs": "Escritorio ajustable en altura, Superficie de roble",
+            "price": 3000
+        },
+        {
+            "id": 22,
+            "category": "Escritorios",
+            "brand": "AnthroDesk",
+            "name": "ErgoConvert",
+            "specs": "Escritorio convertible sentado-de pie, Superficie de bambú",
+            "price": 6000
+        },
+        {
+            "id": 23,
+            "category": "Escritorios",
+            "brand": "Herman Miller",
+            "name": "Airia",
+            "specs": "Escritorio minimalista de diseño moderno, Superficie de vidrio",
+            "price": 20000
+        },
+        {
+            "id": 24,
+            "category": "Escritorios",
+            "brand": "West Elm",
+            "name": "Mid-Century Mini",
+            "specs": "Escritorio compacto de estilo retro, Superficie de nogal",
+            "price": 4000
+        },
+        {
+            "id": 25,
+            "category": "Escritorios",
+            "brand": "Bush Furniture",
+            "name": "Salinas",
+            "specs": "Escritorio con almacenamiento, Superficie de madera",
+            "price": 2000
+        }
+    ]
+}
